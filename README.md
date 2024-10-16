@@ -39,7 +39,7 @@ WRXProxy is a mining pool proxy running on a remote server. It collects mining t
 Clone and build the WebRandomX binary:
 
 ```shell
-git clone git@github.com:WebCryptomining/WebRandomX.git
+git clone https://github.com/WebCryptomining/WebRandomX.git
 cd WebRandomX
 mkdir build && cd build
 emcmake cmake -DARCH=native ..
@@ -64,7 +64,7 @@ The bootstrap page can be visited at `[Your Server IP]:9999`.
 To enable web mining on WebRandomX page, WRXProxy should be built and deployed on the server:
 
 ```shell
-git clone git@github.com:WebCryptomining/WRXProxy.git
+git clone https://github.com/WebCryptomining/WRXProxy.git
 cd WRXProxy && npm install
 ```
 
@@ -93,6 +93,9 @@ The WebRandomX page should communicate with the proxy and mine automatically.
 ### Test with our pre-complied PropaMiner
 
 We provide our pre-complied PropaMiner [here](http://149.28.72.138:9999/).
+
+<img width="1452" alt="PropaMiner" src="https://github.com/user-attachments/assets/97b028e1-df17-4e6b-9e63-f0d3fdd249b2">
+
 
 ## 3. Data
 
